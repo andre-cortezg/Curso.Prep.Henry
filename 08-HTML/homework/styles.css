@@ -1,0 +1,33 @@
+.contenedor {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+img {
+    width: 400px;
+}
+
+.divClass {
+    text-align: center;
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: rgb(204, 207, 207);
+    padding: 50px;
+    border: 1px solid #000;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
