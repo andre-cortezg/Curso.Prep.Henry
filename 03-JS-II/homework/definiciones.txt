@@ -1,0 +1,15 @@
+* for
+For es un ciclo que nos permite ejecutar el codigo que escribamos dentro del ciclo, varias veces para la misma condicion, esto seria evaluar la condicion otra vez cuando termina termina de ejecutar el codigo entre llaves.
+Pare definir el ciclo for se deben asignar entre parentesis, unas claves que serian, la inicializacion, la condicion y el incremento. La inicializacion seria el parametro que define donde inicia el bucle, la condicion es lo que que queremos comprobar para seguir, y el incremento es como va a cambiar el valor inicial, puede ser incremento o decremento. Es muy importante definir siempre el incremento sino se crearia un bucle infinito que no podriamos detener facilmente.
+
+* AND &&
+Es un operador logico y significa "Y"
+Se utilizan para evaluar dos condiciones y quiere decir que es necesario que se cumplan las 2 condiciones para poder seguir adelante con el codigo.
+Se debe tener en cuenta la tabla de la verdad del && en este caso para verificar en que casos va a dar true. Como el && quiere decir que se tiene que cumplir la condicion1 Y condicion2, solo va a ser true cuando las dos sean true.
+
+* OR ||
+Es un operador logico y significa "O"
+Tambien evalua condiciones y quiere decir que se tiene que cumplir una O la otra, no es necesario que se cumplan las. Por lo que en su tabla de la verdad va a ser true siempre que al menos una de las conciones sea true. Y solo sera false en el caso que las 2 seal false.
+
+* ! Negacion
+Lo que hace es cambiar el esatado de la concion, si es true la pasa a false, y si es false la pasa a true

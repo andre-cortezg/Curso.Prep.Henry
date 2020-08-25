@@ -1,0 +1,5 @@
+* Arrays
+Un array es un vector, es decir un elemento unidimensional similar a una lista que permite almacenar elementos en su interior. Se puede acceder a cada elemento para operar, consultar o modificarlo.
+Un array se declara con un nombre NombreArray[elemento1, elemento2, ...., elementon];
+Cada elemento de un array esta almacenado en una posicion que es la que nos va a permitir acceder a ellos para lo que necesitemos. La posicion en los arrays comienza en 0 para su primer elemento, este numero de posicion se llama indice. Para acceder al indice de un array se debe llamar NombreArray[indice];
+Existen multiple metodos que nos permiten operar con los arrays, como .length() que nos sirve para conocer la longitud del array. Ademas de accederlos, se pe pueden agregar elementos al principio o final y eliminar elementos al principo o final con los metodos .push(), .pop(), .shift() y .unshift()
