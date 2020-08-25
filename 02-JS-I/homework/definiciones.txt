@@ -1,0 +1,28 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Variables.
+Son espacion de memoria o celdas donde se almacenan datos. Las variables deben tener nombre para despues poder ubicar donde estan esos datos cuando necesitemos usarlos. 
+La memoria es como un archivo donde se guardan millones de celdas con los datos almacenados en las variables. Para declarar una variable en JavaScript lo hacemos con la palabra clave var seguida del nombre que queremos darle.
+
+* Strings
+Es un tipo de valor, como los numeros, booleanos, null o undefined.
+Son una cadena de texto o de caracteres que puede ser asignada a una varible y debe estar escrita "entre comillas" simples o dobles. En numero tambien puede ser un string si esta escrito entre comillas, como "345" y no se podria operar matematicamente con el.
+
+* Funciones (argumentos, return)
+Las funciones son bloque de codigo definidas con un nombre. Las funciones no necesitan satisfacer una condicion para que se cumplan, simplemente se ejucutan cuando la funcion es invocada por su nombre seguida de parentesis ().
+Se declaran con la palabra clave function, su nombre, () y las lleves de apertura y cierre de la funcion {}.
+Las funciones pueden recibir parametros para ser usados en el codigo a ejecutar, estos parametros van entre los parentesis.
+function nombre(parametros){
+    codigo a ejecutar;
+}
+
+
+* Declaraciones if
+Es la declaracion mas simple de usar para comprobar si una condicion se cumple y asignar el codigo que queremos que se ejecute. Analiza la condicion, si se cumple es true y se ejecuta el codigo.
+if (condicion){
+    mi codigo;
+}
+
+* Valores booleanos (true, false)
+Es otro tipo de valor como el string, los numeros, null o undefined.
+Tambien se pueden almacenar en variables y solo tienen dos Valores true o false. Sirven para identificar el estado de una condicion.
