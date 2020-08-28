@@ -1,0 +1,23 @@
+* Objetos:
+Yo definiria a los objetos como supervariables inteligentes, por que en ellos se pueden almacenar multipples propiedades y accines. Esta propiedades pueden ser de cualquier tipo, str, valor, booleana, incluso puede contener un array con mas elementos en su interior y funciones que realicen acciones.
+Un objeto se puede parecer a una persona que tiene varias propiedades, como un, nombre, apellido, direccion, pero tambien puede realizar acciones como dormir, trabajar, estudiar.
+Los objetos tienen diversos metodos que nos permiten realizar operaciones o acciones con ellos. Tambien tienen formas de crear unidades "genericas" y que nos permiten crear tantos objetos como queramos, estos son los constructores de objetos.
+Los objetos se declaran:
+var nombreDelObjeto = {
+    nombre: usuario;
+    apellido: Perez;
+};
+
+*Notaciones:
+Para acceder a los objetos tenemos 2 tipos de notacion: de puntos y de corchete. Cuando necesitamos acceder a traves del valor de una variable, usamos la notacion de corchetes, entre otros casos. La notacion de puntos en ciertos casos es enterprestada de otra forma por lo que nos puede resultar un error o que este tratando de acceder a una propiedad que no existe.
+Un punto importante es que cuando se quiere minificar el codigo, la notacion de puntos no es permitida, por lo que es aconsejable usar la notacion de corchetes.
+
+* Propiedades: Las propiedades son atribujos de los objetos que son como las variables comunes. Se accede a ellas con el nombre del objeto y punto + la propiedad. Ej: var usuario = objeto();
+        usuario.nombre = 'Nombre';
+Tambien se puede usar la notacion de corchetes.
+
+* Metodos: Los metodos son las funciones que conocemos desde siempre y que se declaran con function(), pero cuando una funcion esta contenida dentro de un objeto, se llama Metodo y tiene la misma sintaxis. 
+
+* Bucle for... in: 
+Es la alternativa para recorrer objetos y lo hace sin ningun orden especifico, ya que los objetos no tienen subindice como los arrays(por esa ahi se declaraba la variable i donde comenzaba y el incremento). Este Bucle define en una variable la propiedad que queremos recorrer en el objeto (in).
+for (var propiedad in obj){}
