@@ -1,0 +1,5 @@
+* Clases:
+Las clases o constructores son objetos "genericos" o "templates" que nos permintes crear multiples objetos particulares pero que comparten las mismas propiedades. Esto quiere decir que podemos crear infinidad de objetos con las mismas propiedades. Es una funcion anonima y cada uno de los objetos nuevos que crea se llaman instancias y se crean de forma dinamica.
+Despues de creado el objeto "template" se debe ejecutar usando la palabra new.
+
+* Prototipos: Son formas de heredar propiedades y metodos, de su padre. Los prototipos tambien son objetos y hay muchos que ya estan predefinidos, aunque tambien se puede crear personalizados. Cada objeto tiene un prototipo, y los prototipos a su vez otro protipo. Por lo que se hacer una cadena de herencias o de prototipos para poder acceder a las propiedades de los objetos.

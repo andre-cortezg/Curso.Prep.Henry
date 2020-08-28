@@ -1,0 +1,4 @@
+* Funciones callback:
+Es una funcion como las que concemos, con la diferencia de que en su argumenteo recibe comoparametro a otra funcion. Solo se para por el argumento la definicion de la funcion y es en la funcion contenedora donde se decide cuando se va a ejecutar
+
+function nombreDeFuncion(funcion){}
